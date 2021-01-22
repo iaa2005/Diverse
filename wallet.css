@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "SF UI Regular";
+    src: url("assets/fonts/SF-UI-Display-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF UI Medium";
+    src: url("assets/fonts/SF-UI-Display-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: "SF UI Bold";
+    src: url("assets/fonts/SF-UI-Display-Bold.otf") format("opentype");
+}
+.menu-address.remove, .connect.remove {
+    display: none;
+}
+body {
+    margin: 0;
+    /*background: linear-gradient(white 90%, rgba(149, 0, 255, 0.075) 100%);*/
+    font-family: "SF UI Medium", AppleSystemUIFont, serif, Arial;
+}
+.before-header {
+    width: 100%;
+    /*background: linear-gradient(rgba(149, 0, 255, 0.075) 0%, white 75%);*/
+}
+.header {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+}
+.logo {
+    height: 2rem;
+}
+.menu {
+    margin-left: auto;
+}
+.menu-text {
+    font-family: "SF UI Regular";
+    font-size: 1.15rem;
+    color: #121212;
+    margin-left: 2.5rem;
+    text-decoration: none;
+}
+.menu-text:hover {
+    cursor: pointer;
+    color: #2f2f2f;
+}
+.connect {
+    font-size: 1.15rem;
+    color: white;
+    font-family: "SF UI Regular";
+    margin-left: 2.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #121212;
+    border-radius: 2rem;
+    border-color: transparent;
+    outline: 0;
+}
+.connect:hover {
+    cursor: pointer;
+    background-color: #2f2f2f;
+}
+
+.text-button {
+    font-size: 1.15rem;
+    display: block;
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+.menu-address {
+    margin-left: 2.5rem;
+    background-color: #2f2f2f;
+    border-radius: 2rem;
+    width: fit-content;
+    display: inline-flex;
+    padding-left: 0.5rem;
+    height: 2.75rem;
+}
+.menu-address:hover {
+    cursor: pointer;
+}
+.balance-menu {
+    display: flex;
+}
+.address-header{
+    border-radius: 2rem;
+    border: 0;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background: black;
+    outline: 0;
+}

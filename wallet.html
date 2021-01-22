@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="wallet.css">
+    <title>Diverse</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="libraries/web3.min.js" type="text/javascript"></script>
+    <script src="libraries/web3-provider.min.js" type="text/javascript"></script>
+    <script src="libraries/web3modal.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="before-header">
+    <div class="header">
+        <a href="/"><img class="logo" src="assets/images/diverse.svg" alt="diverse logo"></a>
+        <div class="menu">
+<!--            <a class="menu-text" href="">Home</a>-->
+            <a class="menu-text">Funds</a>
+            <a class="menu-text">Invest</a>
+            <button id="connect-btn" class="connect">Connect Wallet</button>
+            <div class="menu-address" id="menu-address">
+                <div class="balance-menu">
+                    <a class="text-button" id="balance-header">0</a>
+                    <a class="text-button">ETH</a>
+                </div>
+                <button class="address-header"><a id="address-header-text" class="text-button">0x...</a></button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="main.js" rel="script"></script>
+</body>
+</html>
